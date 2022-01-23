@@ -91,7 +91,7 @@ function App() {
               <Card.Text>
                 <NFTInfo info={item.info} />
               </Card.Text>
-              <a href={`${item.link}`}>
+              <a href={`${item.link}`} target='_blank'>
                 <Button variant="primary">View On OpenSea</Button>
               </a>
             </Card.Body>
